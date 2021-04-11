@@ -34,20 +34,20 @@ LANG=en_US.UTF-8
 
 	echo -e	"\033[31m 现在开始更新软件源,这可能会需要一点儿时间！\033[0m"
 	sleep 3s
-	sudo apt-get update -y;
-	sudo apt-get upgrade -y;
+	apt-get update -y;
+	apt-get upgrade -y;
 
 	echo -e	"\033[31m 软件源更新完成，现在开始安装screen和java，如果安装失败请自行更换软件源，可以更换为阿里源! \033[0m"
 	sleep 3s
-	sudo apt-get install screen -y;
-	sudo apt-get install openjdk-8-jdk -y;
+	apt-get install screen -y;
+	apt-get install openjdk-8-jdk -y;
 	
 
 	echo -e	"\033[31m screen和Java已安装完成，现在开始创建screen并在/home文件夹内新建MC文件夹并进入此文件夹! \033[0m"
 	sleep 3s
 	
-	sudo screnn -R mc;
-	sudo mkdir -p /home/MC; 
+	screnn -R mc;
+	mkdir -p /home/MC; 
 	cd /home/MC;
 
 	echo -e	"\033[31m 部署任务已全部完成！现在快去把开服包放进这个目录，然后运行！！！ \033[0m"
