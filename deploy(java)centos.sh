@@ -2,7 +2,7 @@
 LANG=en_US.UTF-8
 	echo -e	"\033[32m 一键部署MC的Java服务器Linux脚本正在运行！ \033[0m"
 	sleep 1s
-	echo -e	"\033[31m 此脚本由火神80制作！我的B站主页链接：https://space.bilibili.com/382814205/\本脚本在GitHub上开源：#  \033[0m"
+	echo -e	"\033[31m 此脚本由火神80制作！我的B站主页链接：https://space.bilibili.com/382814205/\本脚本在GitHub上开源：https://github.com/huoshen80/deploy \033[0m"
 	sleep 1s
 	echo -e	"\033[36m 请先确认你是否拥有root权限！如果没有请先输入su do root，再输入root密码，再打开本脚本! \033[0m"
 	sleep 1s
