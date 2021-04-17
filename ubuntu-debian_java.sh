@@ -47,6 +47,7 @@ LANG=en_US.UTF-8
 	sleep 3s
 	
 	screen -R mc;
+	sleep 1s;
 	mkdir -p /home/MC; 
 	cd /home/MC;
 
