@@ -11,11 +11,11 @@
 如果没安装git请先使用指令（Ubuntu/Debian）：apt install git -y ,(centos):yum install git -y来先安装.
 请执行'''cd /文件夹路径 '''命令
 
-#### 部署命令
+## 部署命令
 以上步骤都完成后，就可以进行最后一步！
 Ubuntu/Debian 输入指令：. ./ubuntu-debian_java.sh
 centos 输入指令：. ./centos_java.sh
 然后就完成部署了！！！
 接下来就是开MC服务器了！
 
-##### 开服
+## 开服
