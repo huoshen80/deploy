@@ -47,9 +47,9 @@ LANG=en_US.UTF-8
 	echo -e	"\033[31m screen和Java已安装完成，现在开始创建screen并在/home文件夹内新建MC文件夹并进入此文件夹! \033[0m"
 	sleep 3s
 	
-	screen -R mc;
-	sleep 1s;
 	mkdir -p /home/MC; 
 	cd /home/MC;
+	screen -R mc;
+	sleep 1s;
 
 	echo -e	"\033[31m 部署任务已全部完成！现在快去把开服包放进这个目录，然后运行！！！ \033[0m"
