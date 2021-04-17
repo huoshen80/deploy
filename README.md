@@ -8,7 +8,8 @@
 
 ## 开始部署
 在ssh终端使用指令：``` git clone https://github.com.cnpmjs.org/huoshen80/deploy.git ```
-如果没安装git请先使用指令（Ubuntu/Debian）：``` apt install git -y ```,``` (centos)：yum install git -y ```，来先安装.
+如果没安装git请先使用指令（Ubuntu/Debian）：``` apt install git -y ```
+(centos)：``` yum install git -y ```，来先安装.
 请执行'''cd /文件夹路径 '''命令
 
 ## 部署命令
