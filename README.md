@@ -20,3 +20,5 @@ centos 输入指令：``` sh centos_java.sh ```
 接下来就是开MC服务器了！
 
 ## 开服
+在这个仓库里的Server文件夹存在许多客户端你可以使用``` yum install wget -y ```然后``` wget 链接 ```下载使用客户端
+使用``` java -jar 文件名.jar ```开服
