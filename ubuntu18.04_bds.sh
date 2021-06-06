@@ -53,7 +53,7 @@ LANG=en_US.UTF-8
     echo -e	"\033[31m 创建screen并在/home文件夹内新建MC文件夹并进入此文件夹完成，现在开始下载MC官方bds开服包，当前版本1.16.220.02 \033[0m"
 	sleep 2s
 
-    wegt https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.221.01.zip
+    wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.221.01.zip
 
 
     echo -e	"\033[31m 下载MC官方bds开服包完成！现在开始解压文件 \033[0m"
